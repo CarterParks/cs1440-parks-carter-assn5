@@ -14,6 +14,7 @@
 
 ## Penalties
 
+*   **90 point penalty** If you submit the starter code **unchanged**.
 *   This assignment is *not* eligible for the grading gift.  This due date cannot be moved.
 *   Review the Course Rules document to avoid general penalties which apply to all assignments.
     *   **10 point penalty** Pay attention to the name you give your repository on GitLab.
