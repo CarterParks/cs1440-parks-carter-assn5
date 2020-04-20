@@ -72,7 +72,10 @@ if parsed.scheme == '' or parsed.netloc == '':
 ## The user may override the default recursion depth of 3
 maxDepth = 3
 if len(sys.argv) > 2:
-    maxDepth = int(sys.argv[2])
+    try:
+        maxDepth = int(sys.argv[2])
+    except:
+        maxDepth = 3
 
 plural = 's'
 if maxDepth == 1:
